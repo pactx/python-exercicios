@@ -9,6 +9,10 @@ e vai retornar um dicionário com as seguintes informações:
 """
 
 def notas(*notas, sit=False):
+    """
+    Recebe várias notas de alunos e retorna um dicionário com:
+    total de notas, maior, menor, média e situação (opcional).
+    """
     dicionario = {}
     dicionario['total'] = len(notas)
     dicionario['maior'] = max(notas)
