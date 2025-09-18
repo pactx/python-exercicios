@@ -8,4 +8,4 @@ from pacote import moeda
 from pacote import dados
 
 preço = dados.leiaDinheiro('Digite o preço: R$ ')
-moeda.resumo(preço, 80, 35) s
+moeda.resumo(preço, 80, 35)
